@@ -6,7 +6,6 @@ export default class Cell extends React.Component {
   render () {
     return (
       <td className='cell'>
-        debugger;
         <input
               value={this.props.cell}
               onChange={this.props.onChange}
