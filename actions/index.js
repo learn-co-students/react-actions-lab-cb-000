@@ -46,7 +46,7 @@ function blurCell () {
 }
 
 function removeRow (ev) {
-  ev. preventDefault();
+  ev.preventDefault();
 
   if(this.state.table.length > 1){
     const updatedTable = this.state.table.slice(0, -1);
