@@ -1,24 +1,40 @@
 'use strict';
 
-function addColumn (ev) {
+function addColumn (e) {
+  e.preventDefault();
+
+	const x = this.state.table.map(function(row) {
+    return row.push('');
+  })
+
+  debugger
+  this.setState({
+    table: updatedTable
+  })
 }
 
-function addRow (ev) {
+function addRow (e) {
+	
 }
 
-function changeCell (rowIndex, columnIndex, ev) {
+function changeCell (rowIndex, columnIndex, e) {
+  
 }
 
 function focusCell (rowIndex, columnIndex) {
+  
 }
 
 function blurCell () {
+  
 }
 
-function removeRow (ev) {
+function removeRow(e) {
+ 
 }
 
-function removeColumn (ev) {
+function removeColumn (e) {
+  
 }
 
 module.exports = {
